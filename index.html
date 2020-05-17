@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+    <style>
+        .row {
+            margin-top: 50px;
+        }
+
+    </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+                <div id="message-show" class="card fluid hidden">
+                    <h1></h1>
+                    <a href="./index.html">Create your own secret messages!</a>
+                </div>
+                
+                <div id="message-input" class="card fluid">
+                    <form>
+                        <legend>Input your secret message here!</legend>
+                        <input id="message" placeholder="messages here!"/>
+                        <button type="submit" id="submitButton">Submit</button>
+                    </form>
+                </div>
+
+                <div id="message-send" class="card fluid hidden">
+                    Share this link with a friend!
+                    <input id="link-input"/>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
